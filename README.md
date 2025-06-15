@@ -1,8 +1,11 @@
-# Delete Master V1.2
+# Delete Master
 
 ## Descrição
 
-O **Delete Master V1.2** é uma ferramenta criada para deletar arquivos em massa de modo automático. Com uma interface simples e intuitiva, permite selecionar um diretório específico, definir um intervalo de tempo, escolher os formatos de arquivo a serem excluídos, e opcionalmente, configurar uma palavra-chave para exceção, garantindo que determinados arquivos não sejam deletados.
+O **Delete Master** é uma ferramenta criada para deletar arquivos em massa de modo automático. Com uma interface simples e intuitiva, permite selecionar um diretório específico, definir um intervalo de tempo, escolher os formatos de arquivo a serem excluídos, e opcionalmente, configurar uma palavra-chave para exceção, garantindo que determinados arquivos não sejam deletados.
+
+## Preview
+
 
 ### Funcionalidades Principais:
 - **Deleção em Massa**: Escolha um diretório e delete múltiplos arquivos simultaneamente com base no intervalo de tempo e nos formatos de arquivo selecionados.
