@@ -1,38 +1,72 @@
-# Delete Master
+# Delete Master - Cyberpunk Edition (V1.4)
+
+**ATENÇÃO: ESTE PROGRAMA APAGA ARQUIVOS! USE COM EXTREMO CUIDADO E APENAS SE SOUBER EXATAMENTE O QUE ESTÁ FAZENDO. O USO INDEVIDO PODE LEVAR À PERDA IRREVERSÍVEL DE DADOS, INCLUINDO ARQUIVOS DO SISTEMA.**
 
 ## Descrição
 
-O **Delete Master** é uma ferramenta criada para deletar arquivos em massa de modo automático. Com uma interface simples e intuitiva, permite selecionar um diretório específico, definir um intervalo de tempo, escolher os formatos de arquivo a serem excluídos, e opcionalmente, configurar uma palavra-chave para exceção, garantindo que determinados arquivos não sejam deletados.
+O **Delete Master** é uma ferramenta com interface gráfica (GUI) projetada para deletar arquivos em diretórios específicos com base em critérios definidos pelo usuário. Ele possui um tema escuro "Cyberpunk Neon" para uma experiência visual diferenciada.
 
 ## Preview
+Aviso Inicial
+![image](https://github.com/user-attachments/assets/620bea1c-f749-4e17-8b8e-b685f418b32a)
 
+Programa Iniciado
+![image](https://github.com/user-attachments/assets/7e691dcd-5fcb-4186-bc73-aff6c308e2c2)
 
-### Funcionalidades Principais:
-- **Deleção em Massa**: Escolha um diretório e delete múltiplos arquivos simultaneamente com base no intervalo de tempo e nos formatos de arquivo selecionados.
-- **Intervalo de Tempo**: Defina uma data inicial e final para deletar apenas os arquivos modificados dentro deste intervalo.
-- **Seleção de Formatos**: O software suporta a exclusão de arquivos de diversos formatos como `.xlsx`, `.pdf`, `.zip`, `.png`, `.py`, `.exe` e muitos outros.
-- **Exceção por Palavra-Chave**: Insira um termo para garantir que qualquer arquivo contendo essa palavra no nome seja preservado durante o processo de deleção.
+## Funcionalidades
+
+*   **Seleção de Diretório:** Escolha a pasta onde a exclusão de arquivos será realizada.
+*   **Intervalo de Datas:** Defina uma data inicial e final para filtrar arquivos pela data de modificação.
+*   **Seleção de Formatos:** Marque os tipos de arquivo que deseja excluir (ex: `.xlsx`, `.pdf`, `.zip`, etc.).
+*   **Palavra de Exceção:** Insira uma palavra-chave (opcional). Arquivos que contiverem essa palavra no nome não serão deletados.
+*   **Pop-up de Aviso:** Um aviso é exibido ao iniciar o programa, reforçando a natureza destrutiva da ferramenta.
+*   **Barra de Progresso:** Acompanhe o processo de análise e exclusão de arquivos em tempo real.
+*   **Interface Cyberpunk:** Tema escuro com cores neon.
 
 ## Requisitos
 
-- **Python 3.x**
-- **Bibliotecas Python**:
-  - `tkinter` – para a criação da interface gráfica.
-  - `tkcalendar` – para o widget de seleção de datas.
-  - `Pillow` – (opcional) para suporte a imagens no Tkinter.
+Para executar este programa, você precisará ter o Python instalado, juntamente com as seguintes bibliotecas:
 
-### Instalando as Dependências:
+*   `customtkinter`
+*   `tkcalendar`
+*   `Pillow` (opcional, mas incluída para compatibilidade futura com imagens)
 
-`bash`
-`pip install tkcalendar Pillow`
+## Como Usar
 
-`python DeleteMaster.pyw`
+1.  **Instale as dependências:**
+    ```bash
+    pip install customtkinter tkcalendar Pillow
+    ```
 
-### Instruções na Interface:
+2.  **Execute o script:**
+    Salve o código como um arquivo Python (por exemplo, `delete_master.pyw` ou `delete_master.py`) e execute-o:
+    ```bash
+    python delete_master.pyw
+    ```
+    ou
+    ```bash
+    python delete_master.py
+    ```
 
-- Escolha o diretório onde os arquivos serão deletados clicando em Procurar.
-- Defina o intervalo de tempo (Data Inicial e Data Final) para determinar os arquivos a serem apagados com base na última modificação.
-- Selecione os formatos de arquivo que deseja excluir.
-- Opcionalmente, insira uma exceção de palavra-chave para garantir que arquivos com essa palavra no nome não sejam apagados.
-- Clique em Deletar Arquivos para iniciar o processo.
+3.  **Confirme o Aviso:** Leia atentamente o pop-up de aviso e clique em "ESTOU CIENTE E QUERO PROSSEGUIR" se concordar.
 
+4.  **Configure os Filtros:**
+    *   Clique em "Procurar" para selecionar o diretório alvo.
+    *   Defina o intervalo de datas.
+    *   Marque os formatos de arquivo a serem deletados.
+    *   Opcionalmente, adicione uma palavra de exceção.
+
+5.  **Delete os Arquivos:**
+    *   Clique no botão "DELETAR ARQUIVOS SELECIONADOS".
+    *   Uma segunda confirmação será solicitada, mostrando o número de arquivos a serem deletados.
+    *   Se confirmar, os arquivos serão excluídos permanentemente.
+
+## Importante
+
+*   **Faça backups:** Antes de usar esta ferramenta em diretórios importantes, certifique-se de ter backups dos seus dados.
+*   **Verifique os caminhos:** Confirme duas vezes o diretório selecionado antes de prosseguir com a exclusão.
+*   **A exclusão é irreversível.**
+
+---
+
+Use por sua conta e risco.
