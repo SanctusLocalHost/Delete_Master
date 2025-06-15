@@ -31,10 +31,10 @@ class WarningPopup(ctk.CTkToplevel):
         main_frame.pack(expand=True, fill="both", padx=20, pady=20)
 
         warning_text = (
-            "ATENÇÃO!\n\n"
-            "Este programa realiza a exclusão de arquivos. Utilize-o apenas se tiver pleno conhecimento "
-            "das suas ações e dos diretórios selecionados.\n"
-            "O uso indevido pode resultar na PERDA IRREVERSÍVEL DE DADOS, incluindo arquivos do sistema."
+            "ATENÇÃO!!!\n\n"
+            "Este programa realiza a Exclusão de Arquivos. Utilize-o apenas se tiver Pleno Conhecimento "
+            "das suas ações, e dos Diretórios Selecionados.\n"
+            "- O uso indevido pode resultar na PERDA IRREVERSÍVEL DE DADOS, incluindo Arquivos do Sistema."
         )
         
         label = ctk.CTkLabel(main_frame, text=warning_text, text_color=text_color_warning,
